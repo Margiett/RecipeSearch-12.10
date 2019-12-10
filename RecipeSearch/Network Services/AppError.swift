@@ -17,3 +17,6 @@ enum AppError: Error {
   case badStatusCode(Int) // 404, 500
   case badMimeType(String) // image/jpg
 }
+
+
+//
