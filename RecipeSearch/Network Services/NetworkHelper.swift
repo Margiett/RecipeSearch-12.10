@@ -21,6 +21,7 @@ class NetworkHelper {
     session = URLSession(configuration: .default)
   }
   
+    // before we use URLString and we updated to URLRequest, the difference is that a URLString can only take in a String and a URLRequest can take more information
   func performDataTask(with request: URLRequest,
                        completion: @escaping (Result<Data, AppError>) -> ()) {
     // two states on dataTask, resume() and suspended by default

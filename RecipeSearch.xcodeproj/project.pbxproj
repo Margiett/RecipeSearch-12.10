@@ -18,6 +18,8 @@
 		57E9869E239F3AC5002C7C7B /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E9869A239F3AC5002C7C7B /* AppError.swift */; };
 		57E9869F239F3AC5002C7C7B /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E9869C239F3AC5002C7C7B /* UIImageView+Extensions.swift */; };
 		57E986A5239F3BF4002C7C7B /* RecipeSearchAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E986A4239F3BF4002C7C7B /* RecipeSearchAPITests.swift */; };
+		9F1C70A523A00C2A005EF681 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A423A00C2A005EF681 /* Secrets.swift */; };
+		9F1C70A723A011FA005EF681 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A623A011FA005EF681 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		57E9869A239F3AC5002C7C7B /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		57E9869C239F3AC5002C7C7B /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		57E986A4239F3BF4002C7C7B /* RecipeSearchAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchAPITests.swift; sourceTree = "<group>"; };
+		9F1C70A423A00C2A005EF681 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		9F1C70A623A011FA005EF681 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				57E986A3239F3B18002C7C7B /* Views */,
 				57E986A1239F3AF2002C7C7B /* Controllers */,
 				57E9869B239F3AC5002C7C7B /* Extensions */,
+				9F1C70A323A00C0F005EF681 /* Secrets */,
 				57E986A0239F3ADA002C7C7B /* Supporting Files */,
 				57E98684239F3A8F002C7C7B /* Info.plist */,
 			);
@@ -148,6 +153,7 @@
 		57E986A2239F3B0D002C7C7B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F1C70A623A011FA005EF681 /* Recipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +163,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9F1C70A323A00C0F005EF681 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				9F1C70A423A00C2A005EF681 /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,10 +276,12 @@
 			files = (
 				57E9869F239F3AC5002C7C7B /* UIImageView+Extensions.swift in Sources */,
 				57E9869D239F3AC5002C7C7B /* NetworkHelper.swift in Sources */,
+				9F1C70A523A00C2A005EF681 /* Secrets.swift in Sources */,
 				57E9867B239F3A8D002C7C7B /* RecipeSearchController.swift in Sources */,
 				57E9869E239F3AC5002C7C7B /* AppError.swift in Sources */,
 				57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */,
 				57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */,
+				9F1C70A723A011FA005EF681 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
