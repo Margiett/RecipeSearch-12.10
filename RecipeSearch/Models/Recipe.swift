@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+struct RecipeSearch: Decodable {
+    let hits: [Hit]
+    
+}
+
+struct Hit: Decodable {
+    let recipe: Recipe
+}
+
+struct Recipe: Decodable {
+    let label: String
+}

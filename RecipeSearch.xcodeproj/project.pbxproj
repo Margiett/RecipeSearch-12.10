@@ -20,6 +20,7 @@
 		57E986A5239F3BF4002C7C7B /* RecipeSearchAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E986A4239F3BF4002C7C7B /* RecipeSearchAPITests.swift */; };
 		9F1C70A523A00C2A005EF681 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A423A00C2A005EF681 /* Secrets.swift */; };
 		9F1C70A723A011FA005EF681 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A623A011FA005EF681 /* Recipe.swift */; };
+		9F1C70A923A012D6005EF681 /* RecipeSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A823A012D6005EF681 /* RecipeSearchAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		57E986A4239F3BF4002C7C7B /* RecipeSearchAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchAPITests.swift; sourceTree = "<group>"; };
 		9F1C70A423A00C2A005EF681 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		9F1C70A623A011FA005EF681 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9F1C70A823A012D6005EF681 /* RecipeSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				57E9869A239F3AC5002C7C7B /* AppError.swift */,
 				57E98699239F3AC5002C7C7B /* NetworkHelper.swift */,
+				9F1C70A823A012D6005EF681 /* RecipeSearchAPI.swift */,
 			);
 			path = "Network Services";
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				57E9869E239F3AC5002C7C7B /* AppError.swift in Sources */,
 				57E98677239F3A8D002C7C7B /* AppDelegate.swift in Sources */,
 				57E98679239F3A8D002C7C7B /* SceneDelegate.swift in Sources */,
+				9F1C70A923A012D6005EF681 /* RecipeSearchAPI.swift in Sources */,
 				9F1C70A723A011FA005EF681 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
