@@ -21,6 +21,7 @@
 		9F1C70A523A00C2A005EF681 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A423A00C2A005EF681 /* Secrets.swift */; };
 		9F1C70A723A011FA005EF681 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A623A011FA005EF681 /* Recipe.swift */; };
 		9F1C70A923A012D6005EF681 /* RecipeSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1C70A823A012D6005EF681 /* RecipeSearchAPI.swift */; };
+		9F59D7D423A29A000036E5D8 /* RecipeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D7D323A29A000036E5D8 /* RecipeCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9F1C70A423A00C2A005EF681 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		9F1C70A623A011FA005EF681 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9F1C70A823A012D6005EF681 /* RecipeSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchAPI.swift; sourceTree = "<group>"; };
+		9F59D7D323A29A000036E5D8 /* RecipeCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		57E986A3239F3B18002C7C7B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9F59D7D323A29A000036E5D8 /* RecipeCellTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E9869F239F3AC5002C7C7B /* UIImageView+Extensions.swift in Sources */,
+				9F59D7D423A29A000036E5D8 /* RecipeCellTableViewCell.swift in Sources */,
 				57E9869D239F3AC5002C7C7B /* NetworkHelper.swift in Sources */,
 				9F1C70A523A00C2A005EF681 /* Secrets.swift in Sources */,
 				57E9867B239F3A8D002C7C7B /* RecipeSearchController.swift in Sources */,

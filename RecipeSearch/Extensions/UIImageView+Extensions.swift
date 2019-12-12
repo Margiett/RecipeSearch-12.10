@@ -14,7 +14,7 @@ import UIKit
 extension UIImageView {
   func getImage(with urlString: String,
                 completion: @escaping (Result<UIImage, AppError>) -> ()) {
-    
+    //MARK: visual indicator
     // The UIActivityIndicatorView is used to indicate to the user that a download is in progress
     let activityIndicator = UIActivityIndicatorView(style: .large)
     activityIndicator.color = .orange

@@ -44,6 +44,24 @@ class RecipeSearchAPITests: XCTestCase {
         // tell it to wait for 5 seconds for data if it doesnt then the test fail
         wait(for: [exp], timeout: 5.0)
     }
-//TODO:  write an asynchronous test to validata you do get back 50 receipes for the 
-
+//TODO:  write an asynchronous test to validata you do get back 50 receipes for the
+    
+    func testFetchRecipes() {
+        // arrange
+        let expectedRecipesCount = 50
+        let exp = XCTestExpectation(description: "receipes found")
+        let searchQuary = "Christmas cookies"
+        
+        //act - a wait pd  and time out
+        RecipeSearchAPI.fetchRecipe(for: searchQuary) { (result) in
+            switch result {
+            case .failure(let appError):
+                XCTFail("appError \(appError)")
+            case .success(let recipes):
+                exp.fulfill()
+                XCTAssertEqual(recipes.count, expectedRecipesCount)
+            }
+        }
+        wait(for: [exp], timeout: 5.0)
+}
 }
